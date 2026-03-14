@@ -39,6 +39,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
+@Composable
+fun screenContent(name: String, modifier: Modifier = Modifier) {
+    Text("halo semua")
+}
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
