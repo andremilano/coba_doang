@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun screenContent(name: String, modifier: Modifier = Modifier) {
-    Text("halo semua")
+    Text("halo semua, perkenalkan nama saya $name", modifier = modifier)
 }
 @Preview(showBackground = true)
 @Composable
